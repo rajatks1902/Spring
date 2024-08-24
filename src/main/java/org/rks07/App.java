@@ -22,5 +22,7 @@ public class App
         Football foot2 = (Football) applicationContext.getBean("football");
         foot2.play();
 
+        Jevlin jevlin = (Jevlin) applicationContext.getBean("jevlin");
+        jevlin.check();
     }
 }

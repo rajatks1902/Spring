@@ -4,11 +4,26 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="cricket" class="org.rks07.Cricket">
+    <bean id="cricket" class="org.rks07.Cricket">
+        <property name="time" value="7">
 
-</bean>
+        </property>
+        <property name="when" ref="ti">
 
-<bean id="football" class="org.rks07.Football" scope="prototype">
-<!--   Now since the scope is of prototype the object will be created each times getBeans is called -->
-</bean>
+        </property>
+    </bean>
+    <bean id ="ti" class="org.rks07.When">
+
+    </bean>
+    <bean id="football" class="org.rks07.Football" scope="prototype">
+    <!--   Now since the scope is of prototype the object will be created each times getBeans is called -->
+    </bean>
+
+    <bean id ="jevlin" class="org.rks07.Jevlin">
+<!--        sequence matters  should be in the same order -->
+        <constructor-arg value ="89" />
+        <constructor-arg ref ="ti" />
+        <constructor-arg value ="89" />
+    </bean>
+
 </beans>

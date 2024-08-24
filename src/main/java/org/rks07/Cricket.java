@@ -11,8 +11,28 @@ public class Cricket {
         System.out.println("GOAT");
     }
 
+    public int getTime() {
+        return time;
+    }
+
+    public void setTime(int time) {
+        this.time = time;
+    }
+
+    private  int time ;
+
+    public When getWhen() {
+        return when;
+    }
+
+    public void setWhen(When when) {
+        this.when = when;
+    }
+
+    When when;
+
     public  void play(){
-        System.out.println("lets Play Cricket at : ");
-//        when.time();
+        System.out.println("lets Play Cricket at : "+ (time-1));
+        when.time();
     }
 }
