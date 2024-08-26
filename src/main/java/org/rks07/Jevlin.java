@@ -1,18 +1,27 @@
 package org.rks07;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.ComponentScans;
+import org.springframework.stereotype.Component;
+
+@Component // this helps to skips the AppConfig/spring.xml Work
 public class Jevlin {
 
     private  int range;
 
     private  int range2;
 
+    @Autowired
+//    @Qualifier("when")
     When when;
 
-    public Jevlin(int range, When when, int range2){
-        this.range = range;
-        this.when =when;
-        this.range2 = range2;
-    }
+//    @Autowired
+//    public Jevlin(@Value("${range:10}") int range, When when, @Value("${range2:20}") int range2) {
+//        this.range = range;
+//        this.when = when;
+//        this.range2 = range2;
+//    }
 
     public void check(){
 

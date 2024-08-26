@@ -33,6 +33,6 @@ public class Cricket {
 
     public  void play(){
         System.out.println("lets Play Cricket at : "+ (time-1));
-        when.time();
+        //when.time();
     }
 }

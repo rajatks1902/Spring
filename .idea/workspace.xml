@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb229528-f94d-4aa3-9a3f-76b8ed951b59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rks07/Jevlin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rks07/When.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rks07/MatchTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rks07/Year.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rks07/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rks07/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rks07/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rks07/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rks07/Cricket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rks07/Football.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rks07/Football.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rks07/Jevlin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rks07/Jevlin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rks07/When.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rks07/When.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,11 +32,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/spring.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2l5wT2CbPiAeiSr0k0AOU87PthF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,16 +54,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Projects/SpringBootDemo"
+    "last_opened_file_path": "E:/Projects/SpringBootDemo",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.rks07" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rks07.App" />
       <module name="Sprint_Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rks07.*" />
+          <option name="PATTERN" value="org.rks07.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

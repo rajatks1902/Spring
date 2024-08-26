@@ -7,8 +7,14 @@ import org.springframework.stereotype.Component;
 import java.sql.Time;
 import java.util.Calendar;
 
-public class When {
+@Component
+public class When implements MatchTime {
 
+    public When(){
+        System.out.println("When Check");
+    }
+
+    @Override
     public void time(){
         Calendar calendar =Calendar.getInstance();
         System.out.println(calendar.get(Calendar.DAY_OF_WEEK));

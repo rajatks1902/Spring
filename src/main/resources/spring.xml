@@ -12,7 +12,9 @@
 
         </property>
     </bean>
-    <bean id ="ti" class="org.rks07.When">
+
+<!--    Lazy init will load this only when this class in called 1st time  only when it is not dependent on any other beans-->
+    <bean id ="ti" class="org.rks07.When" lazy-init="true" >
 
     </bean>
     <bean id="football" class="org.rks07.Football" scope="prototype">
@@ -24,6 +26,13 @@
         <constructor-arg value ="89" />
         <constructor-arg ref ="ti" />
         <constructor-arg value ="89" />
+
+<!--        another way is to provide index-->
+<!--        example : <con...  index= "1"  ref="ti" -->
+
+<!--        using name="abc" for this we have to define annotations in class file in the sequence-->
+
+<!--        index is recommended way :)-->
     </bean>
 
 </beans>
